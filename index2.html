@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="dol">
+        <video class="videobg" autoplay loop muted plays-inline class="background-clip">
+            <source src="roman.mp4" type="video/mp4">
+        </video>
+    <div class="container">
+        <h1>Thanks for your registration</h1>
+        <h2>you had been successfully registered for your successfull journey on this special day<span style="color: rgb(219, 77, 25); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"  > SEPTEMBER 02 2024</span> with your new career so, <br> All the very Best Bae!!!!! </h2>
+    </div>
+
+
+    <div class="main">
+        <h1>Happy BirthDay bby🫂❤️!!</h1>
+    </div>
+
+    <br>
+    <div id="div1">
+        <p>Right click in the box to see the hidden content</p>
+    </div>
+
+
+
+    <div id="myDiv" style="visibility: hidden;">
+         <div class="container1">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>
+                            Dear love;
+                        </strong>
+                        <p>
+                            Wishing you a very Happy Birthday Darling!!!
+                        </p>
+                        <p>
+                            Hope you will be a bit suprised after seeing this, if not react like u was suprised 😄. Don't worry that u wasn't with ur 
+                            mum, dad, sis, frnds nd me; everybody's blessings will always makes u to lift up nd i'll be there for u 4ever nd ever drlg😙.
+                            To achieve ur goal u should bare some sacrifice what u done nd gonna do. so, focus on your career or proffessional nd keep rocking.
+                            Once again Happieeeee Birthday bae🫂🫂🫂🫂. I Love You🌹 nd miss you lotsss 🫂❤️ ummaaa,,,,,,,,,,,,,
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+   
+    <script>
+       document.getElementById("div1").oncontextmenu = function()
+        {
+            myFunction()
+        };
+        const div = document.getElementById("div1");
+        div.addEventListener("contextmenu",(e) =>
+        {
+            e.preventDefault()
+        });
+
+        function myFunction(){
+            const div= document.getElementById("myDiv");
+            div.style.visibility="visible";
+        }
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+   
+</body>
+</html>
